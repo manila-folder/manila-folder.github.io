@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Plants</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">James Ojascastro</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="plants.html">Plants</a>
+</li>
+<li>
+  <a href="paper.html">Paper</a>
+</li>
+<li>
+  <a href="people.html">People</a>
+</li>
+<li>
+  <a href="press.html">Press</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="jslucas@wustl.edu">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://instagram.com/botanybae">
+    <span class="fa fa-instagram fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/manila_folder">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.inaturalist.org/people/303557">
+    <span class="fa fa-envira fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/james-ojascastro-53b8b584/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/manila-folder">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Plants</h1>
+
+</div>
+
+
+<p>Introduction</p>
+<p>Hundreds, if not thousands, of species have been harvested for their fiber, including for paper. Although most anatomical parts of a plant may be in theory used for making paper, depending on the species the most fibrous parts may originate from the leaves, stems, or even roots. Most paper today is made from stems—specifically, the wood—as harsh chemical and mechanical processes make it possible to break down the tough lignin network that cements cellulose fibers together. But for much of history, the sheer toughness of lignin has made it impossible to make paper from wood by hand. Instead, many hand papermakers—especially in Mesoamerica and east + southeast Asia—have converged on harvesting the fibers from phloem, the thin ring of tissue between the bark and wood of dicotyledenous plants. By converging on harvesting phloem fibers (also called bast fibers) for papermaking, papermakers in the Americas and in Asia have also converged on selecting a remarkably diverse array of species for papermaking, which together share remarkably similar traits—and evolutionary histories. As you read these plant descriptions, notice that they tend to occur in just two plant families: the <a href="https://en.wikipedia.org/wiki/Thymelaeaceae/">Thymelaeaceae</a>, or mezereum family; and the <a href="https://en.wikipedia.org/wiki/Moraceae">Moraceae</a>, or fig family.</p>
+<p>Paper plants</p>
+<div class="row">
+<div class="column">
+<img src="images/Broussonetia_papyrifera.JPG" style="width:50%; margin-right: 10px" align="left">
+</div>
+<div class="column">
+<p><strong>Paper mulberry</strong><br />
+<em>Broussonetia papyrifera</em> (L.) L’Hér. ex Vent<br />
+Family Moraceae</p>
+Widespread and fast-regenerating, paper mulberry has been the predominant source of fiber for making paper across much of warm temperate and tropical East Asia for as long as two millennia. Its fibers are long, tough, and coarse, and well-suited for making durable paper used for painting, calligraphy, and origami. Across the Pacific Islands, paper mulberry bast is not used for making paper, but it instead is beaten to make a coarse cloth called tapa, which is often brightly painted. Tapa garments are generally worn and gifted on special occasions.
+</div>
+</div>
+<p><br></p>
+<div class="row">
+<div class="column">
+<img src="images/Daphne_bholua.JPG" style="width:50%; margin-right: 10px" align="left">
+</div>
+<div class="column">
+<p><strong>Kalo lokta</strong><br />
+<em>Daphne bholua</em> Buch.-Ham. ex D.Don<br />
+Family Thymelaeaceae</p>
+Kalo lokta is the main source of bast fiber used for making paper (also called lokta) in Nepal and Bhutan. Like other members of the Thymelaeaceae, the lokta bush has long bast fibers and insecticidal sap, which confer remarkable durability to lokta paper: some documents printed on lokta date from the first millennium CE. Lokta paper is still used today for official documents in Nepal’s government, and to make souvenir prints and paintings for sale to tourists in Kathmandu.
+</div>
+</div>
+<p><br></p>
+<div class="row">
+<div class="column">
+<img src="images/Daphne_papyracea.JPG" style="width:50%; margin-right: 10px" align="left">
+</div>
+<div class="column">
+<p><strong>Seto lokta</strong><br />
+<em>Daphne papyracea</em> Wall. ex G.Don<br />
+Family Thymelaeaceae</p>
+Seto lokta is one of three main species in the family Thymelaeaceae used to make paper by hand in Nepal and Bhutan. It grows in shaded forests across Kashmir, the Himalaya, and southern China at elevations between 1500 and 2100 meters above sea level.
+</div>
+</div>
+<p><br></p>
+<div class="row">
+<div class="column">
+<img src="images/Edgeworthia_gardneri.JPG" style="width:50%; margin-right: 10px" align="left">
+</div>
+<div class="column">
+<p><strong>Argeli</strong><br />
+<em>Edgeworthia gardneri</em> Meisn.<br />
+Family Thymelaeaceae</p>
+Argeli is a tall (up to 4 m) spreading bush native to the moist, mid-elevation (2400-3500 m a.s.l.) foothills of Sikkim, Bhutan, eastern Nepal, and southern China. Like its relative mitsumata (<em>Edgeworthia tomentosa</em>), argeli fibers are relatively short and very soft, and paper made from both species are prized in Japan for their delicate, gossamer-like qualities. However, Nepalis consider argeli paper inferior, since argeli fibers are shorter and weaker than lokta fibers. Despite this, due to overharvesting of lokta bushes, argeli fibers are becoming more frequently used in Nepalese hand papermaking industries today.
+</div>
+</div>
+<p><br></p>
+<div class="row">
+<div class="column">
+<img src="images/Morus_alba.JPG" style="width:50%; margin-right: 10px" align="left">
+</div>
+<div class="column">
+<p><strong>White mulberry</strong><br />
+<em>Morus alba</em> L.<br />
+Family Moraceae</p>
+White mulberry has been cultivated in China for over four millennia. Its chief use is as a food source for raising silkworms, which voraciously eat its glossy, lobed leaves. But people have long consumed white mulberry too: its sweet fruits may be made into wine, and its leaves can be steeped to make tea. Leaf and root extracts have been used medicinally, and metabolites in their tissues have antimicrobial and antihyperglycemic properties. Although its inner bark fibers have been <a href="files/Cartwright%20et%20al.%202014.pdf">used to make paper money in Ming dynasty China</a>, it is rarely used in hand papermaking today. Those that wish to revive this tradition in the eastern USA can easily do so, as white mulberry has become a ubiquitous and troublesome invasive species there.
+</div>
+</div>
+<p><br></p>
+<div class="row">
+<div class="column">
+<img src="images/Rhamnoneuron_balansae_flowers.jpg" style="width:50%; margin-right: 10px" align="left">
+</div>
+<div class="column">
+<p><strong>Dó</strong><br />
+<em>Rhamnoneuron balansae</em> (Drake) Gilg<br />
+Family Thymelaeaceae</p>
+For over eight centuries, artisans in northern Vietnam relied on fibers harvested from the bast of dó, a small (2 - 4 m tall) tree native to the hilly Hong River watershed to make their paper. Historically, dó was used for calligraphy, packaging fireworks, and ornate Đông Hồ paintings. However, mechanization of papermaking from timber pulp in Hòa Bính Province has driven this once-flourishing tradition almost to extinction. Today, dó paper is made in only two villages on the outskirts of Hanoi, and its expense precludes many of its former uses. Despite its uncertain future, dó paper has achieved a cult following among origami artists around the world, who prize its soft yet exceptionally strong fibers for folding complex designs.
+</div>
+</div>
+<p><br></p>
+<div class="row">
+<div class="column">
+<img src="images/Wikstroemia_indica.JPG" style="width:50%; margin-right: 10px" align="left">
+</div>
+<div class="column">
+<p><strong>Dó liệt</strong><br />
+<em>Wikstroemia indica</em> (L.) C.A.Mey.<br />
+Family Thymelaeaceae</p>
+Those familiar with traditional Chinese medicine might recognize dó liệt, which is extensively used to treat a variety of ailments, including fevers, coughs, and intestinal worms. But in Quỳnh Lưu, Vietnam, harvesters strip bark from dó liệt bushes to sell to just three families of artisans who live in Nghi Phong, just outside the city of Vinh. These artisans then cook and beat the dó liệt bark to make a thin, translucent paper. This paper is then sold to fishermen in Vinh, who use it as a packaging material to keep fish fresh and intact.
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

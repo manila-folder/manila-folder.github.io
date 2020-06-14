@@ -1,0 +1,30 @@
+name: "James Ojascastro"
+output_dir: "."
+navbar:
+  title: "James Ojascastro"
+  left:
+    - text: "Plants"
+      href: plants.html
+    - text: "Paper"
+      href: paper.html
+    - text: "People"
+      href: people.html
+    - text: "Press"
+      href: press.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: jslucas@wustl.edu
+    - icon: fa-instagram fa-lg
+      href: https://instagram.com/botanybae
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/manila_folder
+    - icon: fa-envira fa-lg
+      href: https://www.inaturalist.org/people/303557
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/james-ojascastro-53b8b584/
+    - icon: fa-github fa-lg
+      href: http://github.com/manila-folder
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
