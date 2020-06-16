@@ -1,0 +1,33 @@
+---
+title: "People"
+---
+
+My research would not be possible without the guidance of mentors and collaborators from across many disciplines.  They include:
+
+<div class="row">
+  <div class="column">
+  <img src="images/hart.JPG" style="width:30%; margin-right: 10px" align="left">
+  </div>
+  <div class="column">
+**[Robbie Hart](https://h4rt.squarespace.com/)**    
+Director, William Brown Center  
+Missouri Botanical Garden
+
+Robbie is an interdisciplinary scientist whose research focuses on high-elevation plant ecology, climate change, and ethnobotany---and particularly the areas in which these three topics overlap.  His research most frequently takes him to the eastern Himalaya, where he surveys [rhododendrons](files/Hart & Salick 2018.pdf) and [**GL**obal **O**bservation **R**esearch **I**n **A**lpine environments (GLORIA)](https://gloria.ac.at/home) permanent plots to understand the effects of climate change.
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="column">
+  <img src="images/michael_powell.JPG" style="width:30%; margin-right: 10px" align="left">
+  </div>
+  <div class="column">
+**[Michael Powell](https://www.studiopowell.co/)**    
+Papermaker, Washington University in St. Louis  
+Director of Marketing & Design, [Craft Alliance](https://craftalliance.org/)  
+
+Michael is a St. Louis-based visual artist who specializes in website design, publication design, and papermaking.  He runs the Paper Lab at the Sam Fox School of Design & Visual Arts at WashU.
+  </div>
+</div>
