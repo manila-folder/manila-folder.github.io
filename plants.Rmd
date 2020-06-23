@@ -2,12 +2,11 @@
 title: "Plants"
 ---
 
-## Introduction
+### Introduction
 
-Hundreds, if not thousands, of species have been harvested for their fiber, including for paper. Although most anatomical parts of a plant may be in theory used for making paper, depending on the species the most fibrous parts may originate from the leaves, stems, or even roots.  Most paper today is made from stems---specifically, the wood---as harsh chemical and mechanical processes make it possible to break down the tough lignin network that cements cellulose fibers together.  But for much of history, the sheer toughness of lignin has made it impossible to make paper from wood by hand.  Instead, many hand papermakers---especially in Mesoamerica and east + southeast Asia—have converged on harvesting the fibers from phloem, the thin ring of tissue between the bark and wood of dicotyledenous plants.  By converging on harvesting phloem fibers (also called bast fibers) for papermaking, papermakers in the Americas and in Asia have also converged on selecting a remarkably diverse array of species for papermaking, which together share remarkably similar traits—and evolutionary histories.  As you read these plant descriptions, notice that they tend to occur in just two plant families: the [Thymelaeaceae](https://en.wikipedia.org/wiki/Thymelaeaceae/), or mezereum family; and the [Moraceae](https://en.wikipedia.org/wiki/Moraceae), or fig family.
+Hundreds, if not thousands, of species have been harvested for their fiber, including for paper. Although most anatomical parts of a plant may be in theory used for making paper, depending on the species the most fibrous parts may originate from the leaves, stems, or even roots.  Most paper today is made from stems---specifically, the wood---as harsh chemical and mechanical processes make it possible to break down the tough lignin network that cements cellulose fibers together.  But for much of history, the sheer toughness of lignin has made it impossible to make paper from wood by hand.  Instead, many hand papermakers---especially in Mesoamerica and east + southeast Asia---have converged on harvesting the fibers from phloem, the thin ring of tissue between the bark and wood of dicotyledenous plants.  By converging on harvesting phloem fibers (also called bast fibers) for papermaking, papermakers in the Americas and in Asia have also converged on selecting a remarkably diverse array of species for papermaking, which together share remarkably similar traits—and evolutionary histories.  As you read these plant descriptions, notice that they tend to occur in just two plant families: the [Thymelaeaceae](https://en.wikipedia.org/wiki/Thymelaeaceae/), or mezereum family; and the [Moraceae](https://en.wikipedia.org/wiki/Moraceae), or fig family.
 
-
-## Paper plants
+### Paper plant species
 
 <div class="row">
   <div class="column">
