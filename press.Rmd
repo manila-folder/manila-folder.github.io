@@ -1,27 +1,28 @@
 ---
 title: "Press"
 ---
-
+<body>
 Here you can find a list of my academic and as non-academic publications and presentations, followed by useful resources on hand papermaking written by other authors.
 
 <br>
 
-## Publications
-### Academic
+### Academic publications
 Reid, J.L., Fagan, M.E., Cattau, M.E., Lucas, J., & Zahawi, R.A. (2019).  [The ephemerality of regenerating secondary forests in Costa Rica](files/Reid et al. 2019).  *Conservation Letters* **12**(2), 12607.  
 
 Lucas, J.  (2014).  [Demographic Survey of the Sohisika (Schizolaena tampoketsana) at Ankafobe, Madagascar.](http://digitalcollections.sit.edu/isp_collection/1763)  Independent Study Project (ISP) Collection.  Paper 1763.  
 
 Millard, J. T., Chuang, E., Lucas, J. S., Nagy, E. E., & Davis, G. T. (2013). [Case-Study Investigation of Equine Maternity via PCR-RFLP: A Biochemistry Laboratory Experiment.](files/Millard et al. 2013.pdf) *Journal of Chemical Education*, **90**(11), 1518-1521.
 
-### Non-academic
+<br>
+
+### Non-academic publications
 Lucas, J.  (2020).  "[Paperfolders Need Lots of Fiber: The Ethnobotany of Origami.](files/lucas_ethnobotany.pdf)"  *The Paper* **132**, p. 24-25.
 
 Missouri Botanical Garden.  (2019).  [Leafing Through History: Plants that Make Paper.](files/LTH_web.pdf).  St. Louis, MO., USA.
 
 <br>
 
-## Presentations
+### Presentations
 9 February 2020.  "[The Ethnobotany of Origami.](https://www.youtube.com/watch?v=ReUyVmmkLdM)"  Conference for Creators, Zaragoza, Spain.
 
 13 Sep 2019.  “The Ethnobotany of Origami.”  Pacific Coast Origami Conference, Portland, OR., USA.  
@@ -30,8 +31,7 @@ Missouri Botanical Garden.  (2019).  [Leafing Through History: Plants that Make 
 
 <br>
 
-## Further reading
-### Paper & papermaking  
+### Further reading
 Boesi, A. (2016).  “[Paper Plants in the Tibetan World: A Preliminary Study.](files/Boesi 2016.pdf)” In H. Diemberger, F.-K. Ehrhard, & P. Kornicki (Eds.), *Tibetan Printing: Comparison, Continuities, and Change* (pp. 501–531). Brill.
 
 Boonpitaksakul, W., Chitbanyong, K., Puangsin, B., Pisutpiched, S., & Khantayanuwong, S. (2019). [Natural Fibers Derived from Coi (Streblus asper Lour.) and their behavior in pulping and as paper](files/Boonpitaksakul et al. 2019.pdf). *BioResources* **14**(3), 6411–6420.
@@ -55,3 +55,4 @@ Rantoandro, G. (1983). [Contribution à la connaissance du « papier Antemoro »
 Schmidt, J., & Stavisky, N. (1983). [Uses of Thymelaea hirsuta (Mitnan) with emphasis on hand papermaking.](files/Schmidt & Stavisky 1983.pdf) *Economic Botany* **37**(3), 310–321.
 
 Trier, J.  (1972).  *[Ancient paper of Nepal: results of ethno-technical field work on its manufacture, uses and history—with technical analyses of bast, paper and manuscripts.](files/Trier 1972.pdf)*  Copenhagen: Jutland Archaeological Society Publications.
+</body>

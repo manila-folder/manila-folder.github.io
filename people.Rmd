@@ -21,7 +21,7 @@ Robbie is an interdisciplinary scientist whose research focuses on high-elevatio
 
 <div class="row">
   <div class="column">
-  <img src="images/michael_powell.JPG" style="width:30%; margin-right: 10px" align="left">
+  <img src="images/michael_powell.jpg" style="width:30%; margin-right: 10px" align="left">
   </div>
   <div class="column">
 **[Michael Powell](https://www.studiopowell.co/)**    
@@ -29,5 +29,33 @@ Papermaker, Washington University in St. Louis
 Director of Marketing & Design, [Craft Alliance](https://craftalliance.org/)  
 
 Michael is a St. Louis-based visual artist who specializes in website design, publication design, and papermaking.  He runs the Paper Lab at the Sam Fox School of Design & Visual Arts at WashU.
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="column">
+  <img src="images/nhung.jpg" style="width:30%; margin-right: 10px" align="left">
+  </div>
+  <div class="column">
+**Tran Hong Nhung**    
+Founder, [Zo Project](http://zopaper.com/)  
+
+Although [hand papermaking has been practiced in northern Vietnam for over eight centuries](http://www.bbc.com/travel/story/20160817-the-handmade-paper-that-lasts-800-years), globalization and industrialization has all but driven it to extinction.  Today, just a few families of artisans make paper by hand in northern Vietnam.  Since 2013, Nhung has sponsored some of Vietnam's last papermakers by selling their handmade fans, notebooks, and posters at her brick-and-mortar shop in Hanoi.  Her efforts help preserve an integral part of Vietnam's cultural heritage.
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="column">
+  <img src="images/bikram_jnawali.jpg" style="width:30%; margin-right: 10px" align="left">
+  </div>
+  <div class="column">
+**Bikram Jnawali**    
+Lecturer, Pentagon International College, Nepal
+
+Bikram recently received his Master's degree in Botany from Tribhuvan University in Nepal, for a thesis on the population structure of lokta (*Daphne bholua*), a bush harvested across Nepal to make paper.  He helped me to locate populations of lokta and argeli (*Edgeworthia gardneri*) and conduct interviews with Nepalese papermakers across central and eastern Nepal.
   </div>
 </div>

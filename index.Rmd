@@ -9,7 +9,8 @@
 
 My dissertation research is on the ethnobotany of hand papermaking traditions, with particular attention to those of Nepal and northern Vietnam.
 
-[CV](files/ojascastro_resume.pdf)
+[CV](files/ojascastro_resume.pdf)  
 
-Copyright © 2020 James Ojascastro.  
-All rights reserved.</font>
+<p>Copyright &copy; 2020 James Ojascastro.  
+All rights reserved.</p>
+</font>
